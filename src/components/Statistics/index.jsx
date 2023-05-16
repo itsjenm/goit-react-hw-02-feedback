@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
-export default function Feedback() {
+export default function Statistics() {
   const [feedback, setFeedback] = useState({ Good: 0, Neutral: 0, Bad: 0, Total: 0});
-  const [positiveFeedback, setPositiveFeedback] = useState({percentage: 0})
   //helper methods
   function countTotalFeedback() {
     return feedback.Total = feedback.Good + feedback.Neutral + feedback.Bad;

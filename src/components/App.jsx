@@ -1,12 +1,13 @@
-import Feedback from "./feedback";
+import Statistics from "./Statistics";
+import Section from "./Section";
+
 import { useState } from "react";
 
 export const App = () => {
-  const [feedback, setFeedback] = useState({ Good: 0, Neutral: 0, Bad: 0});
+  
   return (
-    <div>
-      
-      <Feedback />
-    </div>
+    <Section title="">
+      <Statistics />
+    </Section>
   );
 };
