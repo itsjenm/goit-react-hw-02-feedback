@@ -1,5 +1,5 @@
-import Statistics from "./components/Statistics";
-import Section from "./components/Section";
+import Statistics from "./Statistics";
+import Section from "./Section";
 
 import { useState } from "react";
 
